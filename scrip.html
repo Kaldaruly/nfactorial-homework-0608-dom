@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+
+        <link rel="stylesheet" href="scrip.css">
+    </head>
+    <body>
+     <div class="container">
+         <h1 class="ment" style="text-align: center;">Roy Jones Jr</h1>
+         <video  width="100%" height="400" style="text-align: center;" poster="" id="video-player">
+             <source src="Roy Jones Boxing" type="video/mp4">
+         </video>
+
+          
+
+         <div class="ps">
+             <progress id="progress" max="100" value="0"></progress>
+         </div>
+         <div>
+             <p id="out" style="text-align: center;">00 : 00</p>
+         </div>
+        <div class="buttons" style="text-align: center;display: flex; flex-direction:row; justify-content: center;">
+         <div><button id="play">Play</button></div>
+         <div><button id="pause">Pause</button></div>
+         <div><button id="stop">Restart</button></div>
+         <div><button id="speed-up">Faster</button></div>
+         <div><button id="speed-down">Slower</button></div>
+         <div><button id="speed-normal">Normal</button></div>
+         <div><input type="range" id="volume" min="0" max="100">Volume</div>
+        </div>
+    </div>
+    </body>
+    <script src="scrip.js"></script>
+</html>
